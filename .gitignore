@@ -30,3 +30,6 @@ sw.*
 cypress/integration/examples
 cypress/videos
 cypress/screenshots
+
+.nuxt-storybook
+storybook-static

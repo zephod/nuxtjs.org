@@ -106,6 +106,9 @@ export default {
     '~/plugins/newsletter.client.js',
     '~/plugins/vue-scrollactive'
   ],
+  storybook: {
+    // Options
+  },
   env: {
     DEPLOY_PRIME_URL: process.env.DEPLOY_PRIME_URL || false,
     URL: process.env.URL || false,
