@@ -267,13 +267,11 @@ export default {
 
 To understand a bit more about the use of manifests, take a look at this [webpack documentation](https://webpack.js.org/guides/code-splitting/).
 
-
 <base-alert>
 
 Be careful when using non-hashed based filenames in production as most browsers will cache the asset and not detect the changes on first load.
 
 </base-alert>
-
 
 ## friendlyErrors
 
@@ -594,10 +592,14 @@ Then, when launching `nuxt build`, upload the content of `.nuxt/dist/client` dir
 - Default:
 
   ```js{}[nuxt.config.js]
-  {
-    layouts: false,
-    pages: true,
-    commons: true
+  export default {
+    build: {
+      splitChunks: {
+        layouts: false,
+        pages: true,
+        commons: true
+      }
+    }
   }
   ```
 
