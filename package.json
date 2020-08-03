@@ -6,6 +6,7 @@
   "dependencies": {
     "@nuxt/content": "^1.5.0",
     "@nuxt/http": "^0.5.10",
+    "@nuxtjs/storybook": "^1.1.0",
     "@nuxtjs/tailwindcss": "2.1.1",
     "@snackbar/core": "^1.7.0",
     "add": "^2.0.6",
@@ -45,7 +46,6 @@
     "@nuxtjs/netlify-files": "^1.2.0",
     "@nuxtjs/proxy": "^2.0.1",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
-    "@nuxtjs/storybook": "^1.0.0",
     "@nuxtjs/style-resources": "^1.0.0",
     "@nuxtjs/svg": "^0.1.11",
     "babel-eslint": "^10.1.0",
